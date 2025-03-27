@@ -5,33 +5,33 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",
+SESSION_ID: process.env.SESSION_ID || "SUBZERO-MD~jA4iCAya#cHHlC5KIHxpjJ6DNzx3N0nnqXvuyy02KQcpwGAnCSwc",
 // add your Session Id 
-AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
+AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "falsd",
 // make true or false status auto seen
 AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 // make true if you want auto reply on status 
 AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY SUBZERO🤍*",
 // set the auto reply massage on status reply  
-PREFIX: process.env.PREFIX || ".",
+PREFIX: process.env.PREFIX || "@",
 // add your prifix for bot   
-BOT_NAME: process.env.BOT_NAME || "SUBZERO-MD",
+BOT_NAME: process.env.BOT_NAME || "᭄࿐𝐓𝐃𝐀𒋲𝐒𝚮𝚰𝚴𝚯𝚩𝚰√",
 // add bot namw here for menu
-STICKER_NAME: process.env.STICKER_NAME || "SUBZERO-MD",
+STICKER_NAME: process.env.STICKER_NAME || "᭄࿐𝐓𝐃𝐀𒋲𝐒𝚮𝚰𝚴𝚯𝚩𝚰√",
 // type sticker pack name 
 CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 // make this true for custum emoji react    
-CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",
+CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "👺,🐜,🕸️,🎮,💀,🐲,🐉,🦕,🏴‍☠️,🐜,🧛,🔪,🥷",
 // chose custom react emojis by yourself 
 DELETE_LINKS: process.env.DELETE_LINKS || "false",
 // automatic delete links witho remove member 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "263719647303",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "50932764987",
 // add your bot owner number
 OWNER_NAME: process.env.OWNER_NAME || "Mr Frank",
 // add bot owner name
 DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ғʀᴀɴᴍ*",
 // add bot owner name    
-ALIVE_IMG: process.env.ALIVE_IMG || "",
+ALIVE_IMG: process.env.ALIVE_IMG || "true",
 // add img for alive msg
 READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
